@@ -79,7 +79,6 @@ Como você usuaria um loop for para listar os elementos desse vetor sem precisar
 
 Digamos que recebemos, via prompt, um nome digitado pelo usuário. Queremos mostrar na tela “Este nome não consta em nossos registros” caso o nome digitado não esteja no vetor. E “Este nome consta em nossos registros” caso contrário.
 
-Como fazer?
 
 
 
