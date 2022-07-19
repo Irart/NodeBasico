@@ -1,0 +1,21 @@
+<body>
+<script>
+    let usuarios = ["Jose", "Maria", "João", "Silva"];
+    let entrada = prompt("Digite seu nome: ")
+    let encontrado = false;
+
+    for(let i = 0; i < usuarios.length; i++) {
+        if(entrada === usuarios[i]) {
+            encontrado = true;
+        }
+    }
+
+    if(encontrado === true){
+        console.log("Este nome consta em nossos registros.");
+    }
+    else{
+        console.log("Este nome não costa em nossos registros.")
+    }
+
+</script>
+</body>

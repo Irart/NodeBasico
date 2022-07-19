@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+<body>
+<script>
+    let op = prompt("Digite a operação desejada: ");
+    let n1 = Number(prompt("Digite o primerio número: "));
+    let n2 = Number(prompt("Digite o segundo número: "));
+
+    let somar = () =>  n1 + n2; // arrow function, a função é declarada como uma variavel que recebe parametros 
+    let subtrair = (parametro1,parametro2) => n1 - n2;
+    let multiplicar = (parametro1, parametro2) => n1 * n2;
+    let dividir = (parametro1, parametro2) => n1 / n2;
+
+    switch (op) {
+        case "adicao": // reconhece texto
+        case  "+": // reconhece símbolo
+            console.log(somar(n1+n2));
+            break;
+
+        case "subtracao":
+        case "-":
+            console.log(subtrair(n1-n2));
+            break;
+
+        case "multiplicacao":
+        case "*":
+            console.log(multiplicar(n1*n2)); 
+        break;
+
+        case "divisao":
+        case "/":
+            console.log(dividir(n1/n2));
+            break;
+
+        default:
+            console.log("Operação invalida.");
+        }
+
+</script>
+</body>

@@ -1,0 +1,19 @@
+<body>
+<script>
+    let quarto = {
+        acomodacoes: Number(prompt("Acomodacões: ")),
+        disponivel: 5,
+        atualizarDisponipilidade: true
+        };
+        
+    if(quarto.acomodacoes <= quarto.disponivel) {
+        console.log("Disponivel.")
+        quarto.atualizarDisponipilidade = false;
+    }
+    
+    else {
+        console.log("Não temos disponibilidade.");
+    }
+
+    </script>
+</body>
